@@ -5,7 +5,8 @@
     "node": "16.20.1"
   },
   "scripts": {
-    "build": "npx webpack --config webpack.config.js"
+    "build": "npx webpack --config webpack.config.js",
+    "heroku-postbuild": "yarn run build && yarn run webpack"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
