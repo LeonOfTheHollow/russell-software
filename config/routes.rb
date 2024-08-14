@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get '/about-me', to: 'aboutme#show'
 
   get '/temple-of-terror', to: 'templeofterror#show'
-  get '/sigiledthrone', to: 'sigiledthrone#show'
+  get '/sigilledthrone', to: 'sigiledthrone#show'
 
   namespace :api do
     namespace :v1 do
